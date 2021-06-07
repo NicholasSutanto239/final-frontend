@@ -2,9 +2,11 @@
   "name": "final-frontend",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "description": "Front end for final assignment",
+  "engines": {
+    "node": "12.x"
   },
+
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -13,13 +15,22 @@
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
   },
-  "description": "Front end for final assignment",
+
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NicholasSutanto239/final-frontend.git"
   },
+  "keywords": [
+    "nodejs",
+    "heroku"
+  ],
   "author": "Nicholas",
   "license": "ISC",
   "bugs": {
