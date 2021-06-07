@@ -12,5 +12,18 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "description": "Front end for final assignment",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasSutanto239/final-frontend.git"
+  },
+  "author": "Nicholas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasSutanto239/final-frontend/issues"
+  },
+  "homepage": "https://github.com/NicholasSutanto239/final-frontend#readme"
 }
